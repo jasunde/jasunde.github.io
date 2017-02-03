@@ -2,7 +2,7 @@
 layout: post
 title:  "Project Functional Programming"
 date:   2017-02-02 10:11:25 -0600
-categories: functional project euler
+categories: functional-programming project euler
 ---
 
 Last week I started reading a book about Functional Programming by [Kyle Simpson](https://github.com/getify) called [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS). As of now, I'm half way through the book and no expert 'FPer', but I thought I would try out some of the things I'm learning on a [Project Euler](https://projecteuler.net/) problem.
