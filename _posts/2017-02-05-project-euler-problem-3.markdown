@@ -111,5 +111,5 @@ function sumTwoInArray(arr, sum) {
 }
 {% endhighlight %}
 
-The `compose` function is such a great feature of the functional programming paradigm, but it only works with functions that take one parameter. Functional programming has ways of dealing with that. Hopefully, I'll find problem to practice that soon as well.
+The `compose` function is such a great feature of the functional programming paradigm, but it only works with functions that take one parameter. Functional programming has ways of dealing with that. Hopefully, I'll find a problem where I can practice that soon.
 
