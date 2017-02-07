@@ -130,9 +130,9 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  // border: 1px solid $grey-color-light;
+  // border-radius: 4px;
+  // background-color: #eef;
 }
 
 code {
@@ -148,6 +148,12 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.highlighter-rouge {
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  background-color: #eef;
 }
 
 
