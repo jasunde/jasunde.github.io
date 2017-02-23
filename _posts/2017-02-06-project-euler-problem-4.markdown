@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Euler - Problem 4"
+title:  "Project Euler (FP) - Problem 4"
 date:   2017-02-06 18:01:41 -0600
 categories: functional-programming project euler
 ---
