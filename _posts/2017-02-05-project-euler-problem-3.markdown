@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Project Euler - Problem 3"
+title:  "Project FP - Problem 3"
 date:   2017-02-05 12:01:04 -0600
 categories: functional-programming project euler
 ---
+
+
 
 ## The Problem
 
