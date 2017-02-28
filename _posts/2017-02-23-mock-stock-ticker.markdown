@@ -12,7 +12,7 @@ Link to [Mock Stock Ticker]({{ site.baseurl }}{% link /demos/mock-stock-ticker/s
 I got my first introduction to Functional Programming (FP) recently and learned of [Kyle Simpson's](https://github.com/getify) wonderful book [Functional-Light JS](https://github.com/getify/Functional-Light-JS). I thoroughly enjoyed the book not least because of his pragmatic approach to learning FP:
 
 > The better I am at writing in a clear, consistent voice, the better this book experience will be for you. But I'm not a 100% perfect author. Some parts will be better written than others. The parts where I can still improve are not going to invalidate the other parts of this book which are useful.
-
+>
 > And so it goes with our code. The more you can apply these principles to more parts of your code, the better your code will be. Use them well 25% of the time, and you'll get some good benefit. Use them 80% of the time, and you'll see even more benefit.
 
 I look forward to the impact that FP ideas will have on the quality and readability of my coding. And though it may not happen right away, I would love to get more academic about studying FP because it's just so exciting!
