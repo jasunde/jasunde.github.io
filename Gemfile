@@ -28,3 +28,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "webrick", "~> 1.8"

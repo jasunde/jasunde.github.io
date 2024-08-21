@@ -1,0 +1,63 @@
+// scale          12 14 16 18 21 24 30 36 48 60 72
+// line-height-px 18 18 18 18 36 36 36 36 72 72 72
+$base-font-scale: 16 !default;
+$base-line-height: 1.5 !default;
+$base-line-height-px: $base-font-scale * $base-line-height;
+
+body {
+  font-size: $base-font-scale * 1px;
+  line-height: $base-line-height;
+}
+
+@function fontScaleToEm($font-scale) {
+  @return $font-scale / $base-font-scale * 1em;
+}
+
+@function lineHeightToEm($font-scale, $line-height) {
+  @return $font-scale / $line-height * 1em;
+}
+
+@function scaleToMarginEm($font-scale) {
+  @return $base-line-height-px / $font-scale * 1em;
+}
+
+@function scaleToPaddingEm($lines, $font-scale) {
+  @return $base-line-height-px * $lines / $font-scale * 1em;
+}
+
+@mixin typography($font-scale, $line-height) {
+  font-size: fontScaleToEm($font-scale);
+  line-height: lineHeightToEm($font-scale, $line-height);
+  margin-top: scaleToMarginEm($font-scale);
+  margin-bottom: scaleToMarginEm($font-scale);
+}
+
+p {
+  margin-top: scaleToMarginEm($base-font-scale);
+  margin-bottom: scaleToMarginEm($base-font-scale);
+}
+
+h1 {
+  @include typography(36, 36);
+  padding-bottom: scaleToPaddingEm(1, 36);
+}
+
+h2 {
+  @include typography(30, 36);
+}
+
+h3 {
+  @include typography(24, 36);
+}
+
+h4 {
+  @include typography(21, 36);
+}
+
+h5 {
+  @include typography(18, 18);
+}
+
+h6 {
+  @include typography(16, 18);
+}
