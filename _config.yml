@@ -32,3 +32,5 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+
+keep_files: ["_payload.json"]
