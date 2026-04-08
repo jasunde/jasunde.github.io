@@ -33,4 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-keep_files: ["_payload.json"]
+keep_files: ["demos/lookdownthewell/_payload.json"]
