@@ -33,4 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-keep_files: [demos/lookdownthewell]
+keep_files: ["demos/lookdownthewell/*"]
